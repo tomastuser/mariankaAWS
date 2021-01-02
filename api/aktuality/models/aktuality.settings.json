@@ -28,6 +28,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Datum": {
+      "type": "string",
+      "maxLength": 12
     }
   }
 }
