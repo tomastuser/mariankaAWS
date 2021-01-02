@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/sponzoris",
+      "path": "/sponzori",
       "handler": "sponzori.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/sponzoris/count",
+      "path": "/sponzori/count",
       "handler": "sponzori.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/sponzoris/:id",
+      "path": "/sponzori/:id",
       "handler": "sponzori.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/sponzoris",
+      "path": "/sponzori",
       "handler": "sponzori.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/sponzoris/:id",
+      "path": "/sponzori/:id",
       "handler": "sponzori.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/sponzoris/:id",
+      "path": "/sponzori/:id",
       "handler": "sponzori.delete",
       "config": {
         "policies": []

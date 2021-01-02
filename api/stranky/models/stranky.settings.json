@@ -11,10 +11,12 @@
   },
   "attributes": {
     "Nazev": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Text": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

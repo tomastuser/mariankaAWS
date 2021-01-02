@@ -11,10 +11,12 @@
   },
   "attributes": {
     "Jmeno": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Pozice": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Popis": {
       "type": "richtext"
@@ -22,7 +24,11 @@
     "Image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images", "files", "videos"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
       "plugin": "upload",
       "required": false
     }

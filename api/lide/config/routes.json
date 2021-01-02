@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/lides",
+      "path": "/lide",
       "handler": "lide.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/lides/count",
+      "path": "/lide/count",
       "handler": "lide.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/lides/:id",
+      "path": "/lide/:id",
       "handler": "lide.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/lides",
+      "path": "/lide",
       "handler": "lide.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/lides/:id",
+      "path": "/lide/:id",
       "handler": "lide.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/lides/:id",
+      "path": "/lide/:id",
       "handler": "lide.delete",
       "config": {
         "policies": []

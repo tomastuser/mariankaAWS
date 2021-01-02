@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/aktualities",
+      "path": "/aktuality",
       "handler": "aktuality.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/aktualities/count",
+      "path": "/aktuality/count",
       "handler": "aktuality.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/aktualities/:id",
+      "path": "/aktuality/:id",
       "handler": "aktuality.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/aktualities",
+      "path": "/aktuality",
       "handler": "aktuality.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/aktualities/:id",
+      "path": "/aktuality/:id",
       "handler": "aktuality.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/aktualities/:id",
+      "path": "/aktuality/:id",
       "handler": "aktuality.delete",
       "config": {
         "policies": []

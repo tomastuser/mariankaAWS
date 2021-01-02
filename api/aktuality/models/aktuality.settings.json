@@ -11,15 +11,21 @@
   },
   "attributes": {
     "Nazev": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Text": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "Image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images", "files", "videos"],
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
       "plugin": "upload",
       "required": false
     }
