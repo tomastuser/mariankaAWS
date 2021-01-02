@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sponzoris",
+  "info": {
+    "name": "Sponzor",
+    "displayName": "Sponzoři"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nazev": {
+      "type": "string"
+    },
+    "Vyska": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

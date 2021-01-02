@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sponzoris",
+      "handler": "sponzori.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sponzoris/count",
+      "handler": "sponzori.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sponzoris/:id",
+      "handler": "sponzori.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sponzoris",
+      "handler": "sponzori.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sponzoris/:id",
+      "handler": "sponzori.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sponzoris/:id",
+      "handler": "sponzori.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

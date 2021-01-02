@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/strankies",
+      "handler": "stranky.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strankies/count",
+      "handler": "stranky.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/strankies/:id",
+      "handler": "stranky.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/strankies",
+      "handler": "stranky.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/strankies/:id",
+      "handler": "stranky.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/strankies/:id",
+      "handler": "stranky.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

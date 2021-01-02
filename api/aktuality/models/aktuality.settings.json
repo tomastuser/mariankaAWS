@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aktualities",
+  "info": {
+    "name": "Aktuality",
+    "displayName": "Aktuality"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nazev": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images", "files", "videos"],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

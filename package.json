@@ -1,0 +1,39 @@
+{
+  "name": "mariankastrapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Content management system for LMS Marianka",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^24.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "knex": "<0.20.0",
+    "pg": "^8.5.1",
+    "pg-connection-string": "^2.4.0",
+    "sqlite3": "latest",
+    "strapi": "3.1.5",
+    "strapi-admin": "3.1.5",
+    "strapi-connector-bookshelf": "3.1.5",
+    "strapi-plugin-content-manager": "3.1.5",
+    "strapi-plugin-content-type-builder": "3.1.5",
+    "strapi-plugin-email": "3.1.5",
+    "strapi-plugin-upload": "3.1.5",
+    "strapi-plugin-users-permissions": "3.1.5",
+    "strapi-provider-upload-cloudinary": "^3.4.1",
+    "strapi-utils": "3.1.5"
+  },
+  "strapi": {
+    "uuid": "94e84408-4b39-46d0-8e6a-0ca687f2d1bb"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
