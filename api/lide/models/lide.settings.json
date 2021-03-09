@@ -31,6 +31,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Poradi": {
+      "type": "integer",
+      "unique": true
     }
   }
 }
